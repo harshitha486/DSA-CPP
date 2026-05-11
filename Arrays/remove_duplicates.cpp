@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int removeDuplicates(int arr[], int n){
+int remove_Duplicates(int arr[], int n){
     int i = 0;
     for (int j = 1; j < n ; j++)
     {
@@ -24,6 +24,6 @@ int main(){
         cin >> arr[i];
     }
     
-    int x= removeDuplicates(arr,n);
+    int x= remove_Duplicates(arr,n);
     cout << x;
 }
