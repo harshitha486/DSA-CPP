@@ -15,7 +15,7 @@ void better(vector<int>& nums){
     }
     for (int i = count0; i < (count0+count1); i++)
     {
-         nums[i] = 1;
+        nums[i] = 1;
     }
     for (int i = (count0 + count1) ; i < nums.size(); i++)
     {
